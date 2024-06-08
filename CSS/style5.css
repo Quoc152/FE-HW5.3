@@ -1,0 +1,82 @@
+@import url('global.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-5 {
+    font-family: var(--font-family-2);
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 69px;
+}
+
+.headline-5 {
+    max-width: 531px;
+}
+
+.headline-5 h2{
+    color: var(--color-head-1);
+    font-size: var(--font-size-head-1);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-head-1); /* 118.182% */
+}
+
+.cards-5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+}
+
+.card-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.nb-card-5 {
+    color: var(--color-text-8);
+    font-size: var(--font-size-text-1);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-1);
+    line-height: var(--light-height-nm);
+}
+
+.para-card-5 {
+    color: var(--color-text-1);
+    font-size: var(--font-size-text-3);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-5);
+    line-height: var(--light-height-nm);
+    max-width: 400px;
+}
+
+.image1-5 img, .image2-5 img, .image3-5 img {
+    width: 400px;
+    height: 345px;
+    object-fit: cover;
+}
+
+@media (max-width: 1330px) {
+    .container-5 {
+        align-items: center;
+    }
+
+    .headline-5 {
+        max-width: 100%;
+    }
+
+    .cards-5 {
+        flex-direction: column;
+        align-items: center;
+    }
+}

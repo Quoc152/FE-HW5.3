@@ -1,0 +1,81 @@
+:root {
+    /* Font family */
+    --font-family: 'Avenir', sans-serif; 
+    --font-family-2: 'Nunito', sans-serif;
+    --font-family-3: 'Times', sans-serif;
+    --font-family-4: "Playfair Display", sans-serif;
+    --font-family-5: "Work Sans", sans-serif;
+    --font-family-6: 'Poppins', sans-serif;
+    /* Font size */
+    --font-size-head-1: 88px;
+    --font-size-head-2: 72px;
+    --font-size-head-3: 64px;
+    --font-size-head-4: 56px;
+    --font-size-head-5: 40px;
+
+    --font-size-text-1: 32px;
+    --font-size-text-2: 26px;
+    --font-size-text-3: 24px;
+    --font-size-text-4: 18px;
+    --font-size-text-5: 16px;
+
+    --font-icon-text: 14.222px;
+    /* Font style */
+    --font-style: normal;
+    /* Font weight */
+    --font-weight-1: 800;
+    --font-weight-2: 700;
+    --font-weight-3: 600;
+    --font-weight-4: 500;
+    --font-weight-5: 400;
+    --font-weight-6: 300;
+    /* Line height */
+    --line-height-head-1: 104px;
+    --line-height-head-2: 80px;
+
+    --line-height-text-1: 32px;
+    --line-height-text-2: 30px;
+    --line-height-text-3: 18px;
+
+    --light-height-nm: normal;
+    /* Border radius */
+    --radius-item-1: 36px;
+    --radius-item-2: 16px;
+    /* Color */
+    --color-head-1: #252525;
+    --color-head-2: #050505;
+    --color-head-3: #FEC3C7;
+    --color-head-4: #9AD7F3;
+    --color-head-5: #6BDFDA;
+
+    --color-text-1: rgba(37, 37, 37, 0.80);
+    --color-text-2: rgba(37, 37, 37, 0.25);
+    --color-text-3: #333;
+    --color-text-4: #111;
+    --color-text-5: #080808;
+    --color-text-6: #363830;
+    --color-text-7: #232323;
+    --color-text-8: rgba(37, 37, 37, 0.55);
+    --color-text-9: rgba(37, 37, 37, 0.35);
+
+    --white-text: #FFF;
+    /* Background color */
+    --background-button-1: #252525;
+    --background-button-2: #E5B94B;
+    --background-button-3: #363830;
+    --background-button-4: #050505;
+    --background-button-5: rgb(241, 241, 241); 
+    --background-button-6: rgb(200, 200, 200);
+    --background-button-7: #685FD4;
+    --background-button-8: #746bd9;
+    --background-button-9: #6b60e3;
+
+
+    --background-color-1: linear-gradient(295deg, #9C2004 5.77%, #AB2706 97.94%);
+    --background-color-2: #E5B94B;
+    --background-color-3: linear-gradient(123deg, #C8CCCF 5.59%, #97A3A3 84.01%);
+    --background-color-4: linear-gradient(96deg, rgba(255, 255, 255, 0.30) 6.59%, rgba(255, 255, 255, 0.18) 96.07%);
+    --background-color-5: #2F2F2F;
+    
+    --white-background: #FFF;
+}

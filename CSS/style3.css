@@ -1,0 +1,117 @@
+@import url('global.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-3 {
+    background: var(--white-background);
+    font-family: var(--font-family-2);
+    margin: 122px 64px 56px 64px;
+}
+
+.infor-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headline-3 {
+    max-width: 674px;
+}
+
+.headline-3 h2 {
+    color: var(--color-head-1);
+    font-size: var(--font-size-head-1);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-head-2); /* 90.909% */
+}
+
+.para-3 {
+    max-width: 526px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.para-3 p {
+    color: var(--color-text-1);
+    font-size: var(--font-size-text-2);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-5);
+    line-height: var(--light-height-nm);
+}
+
+.btn-3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.btn-start-3 {
+    padding: 16px 32px;
+    border-radius: var(--radius-item-2);
+    background: var(--background-button-1);
+    color: var(--white-text);
+    font-size: var(--font-size-text-4);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-5);
+    line-height: var(--line-height-text-3);
+    cursor: pointer;
+}
+
+.btn-start-3:hover {
+    background: var(--background-button-3);
+}
+
+.btn-start-3:active {
+    background: var(--background-button-4);
+}
+
+.image-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.image-3 img {
+    width: 1313px;
+    height: 732px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+@media (max-width: 1330px) {
+    .infor-3 {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .image-3 img {
+        width: 800px;
+    }
+}
+
+@media (max-width: 800px) {
+    .infor-3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .para-3 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .image-3 img {
+        width: 100%; 
+        height: auto;
+    }
+}
